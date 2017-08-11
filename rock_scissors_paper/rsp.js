@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll('button')
-const resultField = document.querySelector('.App__Container__Result-item')
+const resultField = document.querySelector('.App__Game__Container__Result-item')
 
 const playerBtns = [btns[0], btns[1], btns[2]]
 const computerBtns = [btns[3], btns[4], btns[5]]
