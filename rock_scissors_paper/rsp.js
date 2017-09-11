@@ -51,7 +51,7 @@ function compareChoose(player, computer) {
         else renderResult('Player Win')
       break;    
   
-    case 1: 
+    case 2: 
         if (computer === 0) renderResult('Player Win')
         else if (computer === 1) renderResult('Computer Win')
         else renderResult('Draw')

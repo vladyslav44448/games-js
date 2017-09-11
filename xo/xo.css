@@ -1,0 +1,9 @@
+.App__gameTable__button {
+  width: 100px;
+  height: 100px;
+  font-size: 98px;
+}
+
+.App__restart {
+  display: none;
+}
