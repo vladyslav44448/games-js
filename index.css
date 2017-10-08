@@ -1,0 +1,71 @@
+ul {
+  list-style: none;
+}
+
+.main {
+  background-image: url('desktop.png');
+  display: flex;
+  background-repeat: no-repeat;
+  height: 392px;
+  width: 522px;
+  margin: 39px 0 0 469px;
+  min-width: 500px;
+}
+
+.js--item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js--item {
+  position: absolute;
+  left: 808px;
+  top: 186px;
+  transform: rotate(6deg);
+}
+
+.js-word {
+  width: 49px;
+  height: 53px;
+}
+
+.quiz-word {
+  width: 119px;
+  height: 52px;
+}
+
+.todo-icon {
+  position: absolute;
+  width: 115px;
+  top: 150px;
+  left: 651px;
+  transform: rotate(-3deg);
+}
+
+.todo-icon:hover {
+
+}
+
+.rsp-icon {
+  position: absolute;
+  width: 95px;
+  top: 94px;
+  transform: rotate(-16deg);
+  left: 514px;
+}
+
+.xo-icon {
+  position: absolute;
+  width: 129px;
+  top: 276px;
+  left: 635px;
+}
+
+.next-game--icon {
+  width: 104px;
+  position: absolute;
+  top: 189px;
+  transform: rotate(-17deg);
+  left: 512px;
+}
