@@ -9,7 +9,6 @@ ul {
   height: 392px;
   width: 522px;
   margin: 39px 0 0 469px;
-  min-width: 500px;
 }
 
 .js--item-container {
@@ -23,6 +22,11 @@ ul {
   left: 808px;
   top: 186px;
   transform: rotate(6deg);
+  transition-duration: 0.4s;
+}
+
+.js--item:hover {
+  transform: rotate(6deg) scale(1.4);
 }
 
 .js-word {
@@ -41,10 +45,11 @@ ul {
   top: 150px;
   left: 651px;
   transform: rotate(-3deg);
+  transition-duration: 0.4s;
 }
 
 .todo-icon:hover {
-
+  transform: rotate(-3deg) scale(1.1);
 }
 
 .rsp-icon {
@@ -53,6 +58,11 @@ ul {
   top: 94px;
   transform: rotate(-16deg);
   left: 514px;
+  transition-duration: 0.4s;
+}
+
+.rsp-icon:hover {
+  transform: rotate(-16deg) scale(1.1);
 }
 
 .xo-icon {
@@ -60,12 +70,17 @@ ul {
   width: 129px;
   top: 276px;
   left: 635px;
+  transition-duration: 0.4s;
+}
+
+.xo-icon:hover {
+  transform: scale(1.3);
 }
 
 .next-game--icon {
   width: 104px;
   position: absolute;
-  top: 189px;
+  top: 213px;
   transform: rotate(-17deg);
-  left: 512px;
+  left: 514px;
 }
